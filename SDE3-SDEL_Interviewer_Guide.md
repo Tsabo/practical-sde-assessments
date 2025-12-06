@@ -135,6 +135,23 @@ Probe deeper into architectural maturity:
    - *Good answer:* Specific improvements based on lessons learned, with reasoning
    - *Bad answer:* "It's perfect" or vague regrets
 
+### Question Set D: AI Tool Usage
+
+10. **"Did you use Copilot or other AI tools while building this? Where and why?"**
+    - *Evaluating:* Transparency and intentionality. Were they strategic about tool use, or dependent on it?
+    - *Good answer:* Clear disclosure of what they used it for (boilerplate, specific feature, exploration) + evidence of validation and critical review
+    - *Bad answer:* Denying use when code suggests otherwise, or wholesale acceptance of AI output without verification
+
+11. **"Show me a section where you validated, rejected, or significantly modified AI-generated code. What was your reasoning?"**
+    - *Evaluating:* Critical evaluation of AI output. Can they identify limitations and improve on them?
+    - *Good answer:* Specific example of flawed AI suggestion + how they tested/fixed it + why the alternative is better
+    - *Bad answer:* "I didn't change anything" or can't articulate reasoning behind modifications
+
+12. **"How do you ensure AI-generated code meets your security, performance, and architectural standards?"**
+    - *Evaluating:* Disciplined validation process—do they audit AI code systematically?
+    - *Good answer:* Specific validation checks (security scanning, performance testing, architectural review, threat modeling)
+    - *Bad answer:* "I trust it" or ad-hoc verification with no systematic approach
+
 ---
 
 ## Part 3: Leadership & Scaling (20 minutes)

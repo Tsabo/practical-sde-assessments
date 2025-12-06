@@ -114,6 +114,23 @@ Use these to probe beyond what's in the code:
    - *Good answer:* Specific challenge + how they approached it
    - *Bad answer:* "Nothing was hard" or avoiding the question
 
+### Question Set D: AI Tool Usage
+
+9. **"Did you use Copilot or other AI tools while building this? Where and why?"**
+   - *Evaluating:* Honesty and intentionality. Are they transparent about tool use?
+   - *Good answer:* Clear disclosure of what they used it for (boilerplate, specific feature, debugging) + evidence they reviewed/tested it
+   - *Bad answer:* Denying use when code suggests otherwise, or blind trust ("I just used what it generated")
+
+10. **"Show me a piece where you didn't trust the AI output. What was wrong with it? How did you fix it?"**
+    - *Evaluating:* Critical thinking. Can they identify and correct AI hallucinations, inefficiencies, or logic errors?
+    - *Good answer:* Specific example of flawed AI code + their debugging/correction process
+    - *Bad answer:* "I didn't verify anything" or can't articulate what went wrong
+
+11. **"How do you know the code AI generated is secure, correct, and performant?"**
+    - *Evaluating:* Testing discipline and validation strategy—do they trust blindly or verify?
+    - *Good answer:* "I ran tests, checked for X vulnerability, reviewed the pattern against Y best practice"
+    - *Bad answer:* "AI is usually right" or no validation strategy
+
 ---
 
 ## Part 3: Evaluation Rubric
