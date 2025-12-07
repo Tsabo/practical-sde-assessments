@@ -15,13 +15,13 @@ These assessments aim to reduce unnecessary stress and focus on what actually ma
 ## What This Is
 
 - **Three practical coding assessments:**
-  - `SDE1_Assessment.md` — Entry-level build with guidance on time and expectations; exercises core engineering skills (APIs, async, Blazor, JWT, EF, tests).
-  - `SDE2_Assessment.md` — Mid-level build with less hand-holding; same technical scope, but candidates manage their own time and scope.
-  - `SDE3-Lead_Assessment.md` — Senior-level build emphasizing systems thinking, resilience, observability, and leadership.
+  - [SDE1_Assessment.md](SDE1_Assessment.md) — Entry-level build with guidance on time and expectations; exercises core engineering skills (APIs, async, Blazor, JWT, EF, tests).
+  - [SDE2_Assessment.md](SDE2_Assessment.md) — Mid-level build with less hand-holding; same technical scope, but candidates manage their own time and scope.
+  - [SDE3-Lead_Assessment.md](SDE3-Lead_Assessment.md) — Senior-level build emphasizing systems thinking, resilience, observability, and leadership.
 - **Three interviewer guides:**
-  - `SDE1_Interviewer_Guide.md`
-  - `SDE2_Interviewer_Guide.md`
-  - `SDE3-SDEL_Interviewer_Guide.md`
+  - [SDE1_Interviewer_Guide.md](SDE1_Interviewer_Guide.md)
+  - [SDE2_Interviewer_Guide.md](SDE2_Interviewer_Guide.md)
+  - [SDE3-SDEL_Interviewer_Guide.md](SDE3-SDEL_Interviewer_Guide.md)
 
 Each guide includes question frameworks, what to listen for, rubrics, and red flags—so interviewers can run consistent, fair conversations centered on real-world capability.
 
@@ -51,12 +51,12 @@ The goal is evaluating engineering judgment, not framework familiarity—unless 
 
 ## Repository Contents
 
-- `SE1_Assessment.md` — Practical assessment for SDE1 (includes time guidance and rubric tiers).
-- `SE2_Assessment.md` — Practical assessment for SDE2 (lighter guidance; scope management is part of the evaluation).
-- `SE3-Lead_Assessment.md` — Practical assessment for SDE3/Lead.
-- `SDE1_Interviewer_Guide.md` — Interviewer guide for the SDE1 assessment.
-- `SDE2_Interviewer_Guide.md` — Interviewer guide for the SDE2 assessment.
-- `SDE3-SDEL_Interviewer_Guide.md` — Interviewer guide for the SDE3/Lead assessment.
+- [SDE1_Assessment.md](SDE1_Assessment.md) — Practical assessment for SDE1 (includes time guidance and rubric tiers).
+- [SDE2_Assessment.md](SDE2_Assessment.md) — Practical assessment for SDE2 (lighter guidance; scope management is part of the evaluation).
+- [SDE3-Lead_Assessment.md](SDE3-Lead_Assessment.md) — Practical assessment for SDE3/Lead.
+- [SDE1_Interviewer_Guide.md](SDE1_Interviewer_Guide.md) — Interviewer guide for the SDE1 assessment.
+- [SDE2_Interviewer_Guide.md](SDE2_Interviewer_Guide.md) — Interviewer guide for the SDE2 assessment.
+- [SDE3-SDEL_Interviewer_Guide.md](SDE3-SDEL_Interviewer_Guide.md) — Interviewer guide for the SDE3/Lead assessment.
 
 ## Contributing / Adapting
 
