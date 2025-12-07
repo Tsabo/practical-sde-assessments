@@ -58,6 +58,16 @@ The goal is evaluating engineering judgment, not framework familiarity—unless 
 - [SDE2_Interviewer_Guide.md](SDE2_Interviewer_Guide.md) — Interviewer guide for the SDE2 assessment.
 - [SDE3-SDEL_Interviewer_Guide.md](SDE3-SDEL_Interviewer_Guide.md) — Interviewer guide for the SDE3/Lead assessment.
 
+## Changelog
+
+### 2025-12-06
+- **Refactored assessment structure for clarity** — Reorganized all assessment and interviewer guide files with improved structure and naming conventions
+  - Updated: `SDE1_Assessment.md`, `SDE1_Interviewer_Guide.md`, `SDE2_Assessment.md`, `SDE2_Interviewer_Guide.md`, `SDE3-Lead_Assessment.md`, `SDE3-SDEL_Interviewer_Guide.md`
+  - Removed: `SE1-SE2_Assessment.md` (split into separate SDE1 and SDE2 assessments)
+- **Added AI tool usage questions** — Included questions about AI-assisted coding in interviewer guides
+  - Updated: `SDE1_Interviewer_Guide.md`, `SDE2_Interviewer_Guide.md` (formerly `SDE1-SDE2_Interviewer_Guide.md`), `SDE3-SDEL_Interviewer_Guide.md`
+- **Initial release** — Created practical assessments and interviewer guides for SDE1, SDE2, SDE3, and Lead positions
+
 ## Contributing / Adapting
 
 Feel free to adapt these assessments and guides to your team's tech stack or constraints. If you improve clarity or find gaps, update the docs and keep interviewer expectations explicit—consistency is key to fairness.
