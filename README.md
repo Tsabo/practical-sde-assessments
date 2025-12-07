@@ -21,7 +21,7 @@ These assessments aim to reduce unnecessary stress and focus on what actually ma
 - **Three interviewer guides:**
   - [SDE1_Interviewer_Guide.md](SDE1_Interviewer_Guide.md)
   - [SDE2_Interviewer_Guide.md](SDE2_Interviewer_Guide.md)
-  - [SDE3-SDEL_Interviewer_Guide.md](SDE3-SDEL_Interviewer_Guide.md)
+  - [SDE3-Lead_Interviewer_Guide.md](SDE3-Lead_Interviewer_Guide.md)
 
 Each guide includes question frameworks, what to listen for, rubrics, and red flags—so interviewers can run consistent, fair conversations centered on real-world capability.
 
@@ -56,7 +56,7 @@ The goal is evaluating engineering judgment, not framework familiarity—unless 
 - [SDE3-Lead_Assessment.md](SDE3-Lead_Assessment.md) — Practical assessment for SDE3/Lead.
 - [SDE1_Interviewer_Guide.md](SDE1_Interviewer_Guide.md) — Interviewer guide for the SDE1 assessment.
 - [SDE2_Interviewer_Guide.md](SDE2_Interviewer_Guide.md) — Interviewer guide for the SDE2 assessment.
-- [SDE3-SDEL_Interviewer_Guide.md](SDE3-SDEL_Interviewer_Guide.md) — Interviewer guide for the SDE3/Lead assessment.
+- [SDE3-Lead_Interviewer_Guide.md](SDE3-Lead_Interviewer_Guide.md) — Interviewer guide for the SDE3/Lead assessment.
 
 ## Changelog
 
@@ -65,7 +65,7 @@ The goal is evaluating engineering judgment, not framework familiarity—unless 
   - Updated: `SDE1_Assessment.md`, `SDE1_Interviewer_Guide.md`, `SDE2_Assessment.md`, `SDE2_Interviewer_Guide.md`, `SDE3-Lead_Assessment.md`, `SDE3-SDEL_Interviewer_Guide.md`
   - Removed: `SE1-SE2_Assessment.md` (split into separate SDE1 and SDE2 assessments)
 - **Added AI tool usage questions** — Included questions about AI-assisted coding in interviewer guides
-  - Updated: `SDE1_Interviewer_Guide.md`, `SDE2_Interviewer_Guide.md` (formerly `SDE1-SDE2_Interviewer_Guide.md`), `SDE3-SDEL_Interviewer_Guide.md`
+  - Updated: `SDE1_Interviewer_Guide.md`, `SDE2_Interviewer_Guide.md` (formerly `SDE1-SDE2_Interviewer_Guide.md`), `SDE3-Lead_Interviewer_Guide.md`
 - **Initial release** — Created practical assessments and interviewer guides for SDE1, SDE2, SDE3, and Lead positions
 
 ## Contributing / Adapting
