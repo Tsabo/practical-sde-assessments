@@ -31,12 +31,23 @@ Build a system that demonstrates mature engineering practices:
 
 - **Multi-Service Architecture:** A front-end API orchestrating 2+ back-end services asynchronously. Design for resilience—what happens when one service is slow or fails?
 - **REST API Development:** RESTful endpoints with proper versioning strategy; Entity Framework with thoughtful migration patterns
-- **Frontend:** Blazor application with component architecture that enables team contribution; clear patterns for routing and state management
-- **Frontend choice:** Blazor is preferred for consistent evaluation; if you select another framework (React/Angular/etc.), provide run instructions, document how routes/components map to API interactions, and be ready to explain your state management, data loading, and error-handling patterns during the interview
+- **Frontend:** A web application with component architecture that enables team contribution; clear patterns for routing and state management
 - **Security:** JWT authentication with thoughtful consideration of token lifecycle, refresh strategies, and API threat model
 - **Observability:** Structured logging, correlation IDs across service calls, and clear operational insights
 - **Testing Strategy:** Unit tests, integration tests, and documented testing approach (not just coverage %)
 - **Code Organization:** Clean separation that enables team scaling; documented patterns; reusable, well-named abstractions
+
+### Frontend Framework
+
+Choose the frontend framework you're most productive in:
+
+- **Blazor** (Server or WebAssembly)
+- **React** or **Angular**
+- **Other modern SPA frameworks** (Vue, Svelte, etc.)
+
+If you choose something other than Blazor, include clear run instructions and be ready to walk us through your component architecture, state management approach, error handling patterns, and how the UI integrates with your APIs.
+
+We care about architectural thinking and your ability to explain trade-offs—not framework familiarity.
 
 ## Architectural Expectations
 
@@ -61,7 +72,7 @@ Beyond the basic requirements, show your thinking on:
 
 ## Optional Stretch Goals (Not Required)
 
-These demonstrate SE3/Lead-level thinking:
+These demonstrate SE3/Lead-level thinking but aren't expected in the time allotted:
 
 - **Deployment & Infrastructure:** Docker/K8s setup showing production readiness
 - **Advanced Resilience:** Chaos engineering example (e.g., what breaks when a service is down?)

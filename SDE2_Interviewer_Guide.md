@@ -1,8 +1,20 @@
-# SDE1/SDE2 Assessment - Interviewer Guide
+# SDE2 Assessment - Interviewer Guide
 
 ## Interview Structure (60 minutes)
 
 **Warm-up (5 min)** → **Code Walkthrough (20 min)** → **Deeper Questions (20 min)** → **Their Questions (10 min)** → **Wrap-up (5 min)**
+
+---
+
+## Context: Evaluating Mid-Level Engineers
+
+SDE2 candidates should have meaningful professional experience. Calibrate your expectations accordingly:
+
+- **They should own their decisions.** "I chose X because Y" not "the tutorial said to."
+- **Scope management matters.** They had a week with no hour guidance—how did they decide what to build?
+- **Production awareness.** They should think about failure modes, debugging, and maintenance without heavy prompting.
+
+**Early signal:** Ask how much time they spent and what they chose to cut. Their answer reveals prioritization skills.
 
 ---
 
@@ -61,6 +73,17 @@ Start with the candidate walking you through their solution. Listen more than yo
   - No token expiration
   - No validation on protected endpoints
   - Confusion about what JWT does/doesn't do
+
+**5. Scope Management** *(SDE2-specific)*
+- *Ask:* "How did you decide what to include and what to skip?"
+- *What to listen for:*
+  - Did they prioritize core requirements over gold-plating?
+  - Can they articulate what they'd add with more time?
+  - Did they manage their time effectively?
+- *Red flags:*
+  - Spent 40 hours and still has gaps in fundamentals
+  - Can't explain what they deprioritized
+  - Over-engineered minor features while skipping core requirements
 
 ---
 
@@ -145,6 +168,31 @@ Rate each category on a scale: **1 = Weak, 2 = Acceptable, 3 = Strong, 4 = Excep
 | **Technical Understanding** | Confused about key concepts | Understands basics, gaps remain | Solid grasp of concepts | Deep understanding, can explain trade-offs |
 | **Problem-Solving** | Struggles with challenges | Completes requirements literally | Thinks about implications | Anticipates future needs |
 | **Communication** | Hard to follow, vague | Clear but could be more articulate | Clear explanations | Excellent at explaining complex ideas |
+| **Scope Management** | Poor prioritization, wasted effort | Completed requirements, some inefficiency | Smart prioritization, shipped clean | Nailed scope, documented trade-offs |
+
+### Calibration Examples
+
+To help interviewers calibrate consistently, here are concrete examples for each level in the **Scope Management** category:
+
+**1 (Weak):**
+- Spent excessive time on UI polish while core API has bugs
+- Missing fundamental requirements but added unrequested features
+- Can't explain what they prioritized or why
+
+**2 (Acceptable):**
+- All requirements met but some areas over/under-invested
+- Can explain choices when asked but didn't document them
+- Reasonable time investment with minor inefficiencies
+
+**3 (Strong):**
+- Requirements met with appropriate depth in each area
+- Clear explanation of what they'd add with more time
+- Time investment matches the scope well
+
+**4 (Exceptional):**
+- Requirements met with thoughtful trade-offs documented
+- Proactively identified and cut low-value work
+- Could articulate exactly where more time would provide ROI
 
 ---
 
@@ -158,6 +206,7 @@ Rate each category on a scale: **1 = Weak, 2 = Acceptable, 3 = Strong, 4 = Excep
 | **No tests or bad tests** | Won't catch regressions | 🟡 High |
 | **Can't articulate why decisions** | Just copying patterns, not thinking | 🟡 High |
 | **Async/await misuse** | Deadlocks, performance issues | 🟡 High |
+| **Poor scope management** | Will over-engineer or miss deadlines | 🟡 High |
 | **Generic variable names** | Hard to maintain | 🟠 Medium |
 | **No comments on complex logic** | Knowledge silos | 🟠 Medium |
 | **Defensive/dismissive answers** | Won't take feedback | 🟠 Medium |
@@ -173,10 +222,12 @@ Rate each category on a scale: **1 = Weak, 2 = Acceptable, 3 = Strong, 4 = Excep
 - Would they ask for help when stuck, or silently deliver broken code?
 - Do they care about quality or just "getting it working"?
 - Can they communicate technical ideas clearly?
+- Do they manage scope and time effectively?
 
-**Remember:** A good SDE1/SDE2 doesn't need to know everything, but they need to:
+**Remember:** A good SDE2 should:
 - ✅ Write code others can understand
-- ✅ Think about failure cases
-- ✅ Be willing to learn
+- ✅ Think about failure cases without prompting
+- ✅ Own their technical decisions
 - ✅ Take responsibility for quality
 - ✅ Communicate clearly
+- ✅ Manage scope appropriately

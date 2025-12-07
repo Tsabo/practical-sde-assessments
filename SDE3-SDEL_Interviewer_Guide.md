@@ -67,7 +67,7 @@ Have the candidate walk you through the system. This is where you assess **syste
 **5. Scalability & Performance**
 - *Ask:* "Your system needs to handle 10x traffic. What breaks first? What do you optimize?"
 - *What to listen for:*
-  - Understand of bottlenecks (database, cache, network)
+  - Understanding of bottlenecks (database, cache, network)
   - Caching strategy (what, where, invalidation)
   - Database optimization (indexing, query patterns)
   - Async patterns to handle load
@@ -160,22 +160,22 @@ For SDEL candidates specifically, probe deeper here:
 
 ### Leadership Questions
 
-10. **"Tell me about a time you had to influence a technical decision without authority."**
+13. **"Tell me about a time you had to influence a technical decision without authority."**
     - *Evaluating:* Influence without coercion? Can they persuade others?
     - *Good answer:* Specific example with data-driven reasoning
     - *Bad answer:* "I just convinced them" or no examples
 
-11. **"How do you handle disagreement on technical approach with other strong engineers?"**
+14. **"How do you handle disagreement on technical approach with other strong engineers?"**
     - *Evaluating:* Do they listen? Can they find consensus? Are they stubborn or collaborative?
     - *Good answer:* Collaborative process, respect for other views, focus on outcomes
     - *Bad answer:* "I'm usually right" or dismissive of others
 
-12. **"Describe a time you were wrong about something technical. What did you learn?"**
+15. **"Describe a time you were wrong about something technical. What did you learn?"**
     - *Evaluating:* Humility? Growth mindset? Ability to admit mistakes?
     - *Good answer:* Clear example, what they learned, how they changed
     - *Bad answer:* "I'm rarely wrong" or vague lessons
 
-13. **"How do you grow the technical capability of your team?"**
+16. **"How do you grow the technical capability of your team?"**
     - *Evaluating:* Do they develop others? Create learning opportunities?
     - *Good answer:* Specific practices (code review, pairing, talks, stretch projects)
     - *Bad answer:* "They learn on their own" or no strategy
@@ -197,6 +197,32 @@ Rate each category: **1 = Weak, 2 = Acceptable, 3 = Strong, 4 = Exceptional**
 | **Documentation** | Minimal or unclear docs | Adequate documentation | Clear ADRs, diagrams, decision rationale | Exceptional documentation enabling team growth |
 | **Technical Communication** | Hard to follow, loses audience | Clear but misses nuance | Excellent at explaining complex ideas | Master communicator of complex systems |
 | **(SDEL) Leadership** | No evidence of influence | Limited mentoring/influence | Develops others, shapes decisions | Visionary leader, grows organizational capacity |
+
+### Calibration Examples
+
+To help interviewers calibrate consistently, here are concrete examples for each level in the **Systems Thinking** category:
+
+**1 (Weak):**
+- No timeouts configured; services wait indefinitely
+- "The database won't go down"
+- Can't identify what happens when a dependency fails
+
+**2 (Acceptable):**
+- Has timeouts but hasn't tested failure scenarios
+- Knows circuit breakers exist but hasn't implemented them
+- Can describe failure modes when prompted but didn't proactively consider them
+
+**3 (Strong):**
+- Timeouts, retries, and circuit breakers implemented
+- Can walk through cascading failure scenarios
+- Has graceful degradation strategy (return cached data, partial responses)
+- Documented failure modes and recovery procedures
+
+**4 (Exceptional):**
+- Chaos engineering mindset—has tested failure scenarios
+- Bulkhead patterns isolate failures
+- Self-healing capabilities (automatic recovery, health checks)
+- Can explain business impact of each failure mode and mitigation cost/benefit
 
 ---
 

@@ -14,11 +14,13 @@ These assessments aim to reduce unnecessary stress and focus on what actually ma
 
 ## What This Is
 
-- **Two practical coding assessments:**
-  - `SE1-SE2_Assessment.md` — A hands-on build that exercises core engineering skills (APIs, async, Blazor, JWT, EF, tests).
-  - `SE3-Lead_Assessment.md` — A senior-level build emphasizing systems thinking, resilience, observability, and leadership.
-- **Two interviewer guides:**
-  - `SDE1-SDE2_Interviewer_Guide.md`
+- **Three practical coding assessments:**
+  - `SDE1_Assessment.md` — Entry-level build with guidance on time and expectations; exercises core engineering skills (APIs, async, Blazor, JWT, EF, tests).
+  - `SDE2_Assessment.md` — Mid-level build with less hand-holding; same technical scope, but candidates manage their own time and scope.
+  - `SDE3-Lead_Assessment.md` — Senior-level build emphasizing systems thinking, resilience, observability, and leadership.
+- **Three interviewer guides:**
+  - `SDE1_Interviewer_Guide.md`
+  - `SDE2_Interviewer_Guide.md`
   - `SDE3-SDEL_Interviewer_Guide.md`
 
 Each guide includes question frameworks, what to listen for, rubrics, and red flags—so interviewers can run consistent, fair conversations centered on real-world capability.
@@ -37,13 +39,25 @@ Each guide includes question frameworks, what to listen for, rubrics, and red fl
 - **Lower stress, higher signal:** Give time to produce thoughtful work; use discussion to understand judgment and communication.
 - **Fairness and clarity:** Clear expectations, documented rubrics, and repeatable questions yield more consistent decisions.
 
+## Adapting to Your Stack
+
+These assessments are written with .NET and Blazor in mind, but the principles apply broadly. If your team uses a different stack:
+
+- **Swap the tech requirements** (e.g., React instead of Blazor, Spring Boot instead of ASP.NET) while keeping the core challenges (multi-API integration, auth, testing, observability).
+- **Adjust the interviewer guides** to reflect your stack's idioms and best practices.
+- **Keep the philosophy intact:** realistic work, clear expectations, consistent evaluation.
+
+The goal is evaluating engineering judgment, not framework familiarity—unless framework expertise is specifically what you're hiring for.
+
 ## Repository Contents
 
-- `SE1-SE2_Assessment.md` — Practical assessment for SDE1/SDE2.
+- `SE1_Assessment.md` — Practical assessment for SDE1 (includes time guidance and rubric tiers).
+- `SE2_Assessment.md` — Practical assessment for SDE2 (lighter guidance; scope management is part of the evaluation).
 - `SE3-Lead_Assessment.md` — Practical assessment for SDE3/Lead.
-- `SDE1-SDE2_Interviewer_Guide.md` — Interviewer guide for the SDE1/SDE2 assessment.
+- `SDE1_Interviewer_Guide.md` — Interviewer guide for the SDE1 assessment.
+- `SDE2_Interviewer_Guide.md` — Interviewer guide for the SDE2 assessment.
 - `SDE3-SDEL_Interviewer_Guide.md` — Interviewer guide for the SDE3/Lead assessment.
 
 ## Contributing / Adapting
 
-Feel free to adapt these assessments and guides to your team’s tech stack or constraints. If you improve clarity or find gaps, update the docs and keep interviewer expectations explicit—consistency is key to fairness.
+Feel free to adapt these assessments and guides to your team's tech stack or constraints. If you improve clarity or find gaps, update the docs and keep interviewer expectations explicit—consistency is key to fairness.
