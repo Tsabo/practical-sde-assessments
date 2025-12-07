@@ -71,3 +71,13 @@ The goal is evaluating engineering judgment, not framework familiarity—unless 
 ## Contributing / Adapting
 
 Feel free to adapt these assessments and guides to your team's tech stack or constraints. If you improve clarity or find gaps, update the docs and keep interviewer expectations explicit—consistency is key to fairness.
+
+## Using This in Your Interview Process?
+
+If you adopt this approach in your interview process, I'd love to hear about it! Please open an issue or reach out to let me know:
+
+- That you're using these assessments
+- What company or organization is using them (if you're comfortable sharing)
+- Any feedback or adaptations you've made
+
+This helps me understand the impact and improve the materials based on real-world usage. Thank you!
